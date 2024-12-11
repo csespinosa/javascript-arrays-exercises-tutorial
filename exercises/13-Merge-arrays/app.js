@@ -4,7 +4,8 @@ let chunkTwo = [ 'Lucas', 'Jake', 'Scott', 'Amy', 'Molly', 'Hannah', 'Lucas' ];
 const mergeArrays = (firstArray, secondArray) => {
     let newArray = []
     // Your code here
-    return newArray
+    
+    return firstArray.concat(secondArray);
 }
 
 console.log(mergeArrays(chunkOne, chunkTwo));

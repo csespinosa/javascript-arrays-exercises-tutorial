@@ -4,12 +4,11 @@ let listOfNumbers = [4, 80, 85, 59, 37, 25, 5, 64, 66, 81, 20, 64, 41, 22, 76, 7
 function mergeTwoList(array) {
     let odd = [];
     let even = [];
-
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] % 2 === 0) {
-            even.push(array[i]);
+    for (let i = 0; i < listOfNumbers.length; i++) {
+        if (i % 2 === 0) {
+            even.push(i);
         } else {
-            odd.push(array[i]);
+            odd.push(i);
         }
     }
     
